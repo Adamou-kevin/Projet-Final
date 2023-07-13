@@ -1,0 +1,180 @@
+body {
+    margin: 0;
+    padding:0;
+  }
+  
+  
+  .navbar {
+    background-color: rgb(4, 69, 51);
+      display: flex;
+      justify-content: space-between;
+      padding: 10px;
+      border: 9px solid rgb(255, 255, 255);
+      border-radius: 100px;
+      height:51px;
+  }
+  
+  
+  .logo-img {
+    /* Ajoutez les styles pour votre logo ici */
+    width: 115px;
+    height:auto;
+    top: -36px;
+    position: relative;
+    
+  }
+  
+  
+  .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  
+  .menu li {
+    margin-right: 1.5cm;
+  }
+  
+  
+  .menu a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+    position: relative; /* Ajout de la position relative */
+    font-size: 25px;
+  }
+  
+  
+  .menu a::after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 0;
+    background-color: transparent;
+    transition: width 0.3s, background-color 0.3s;
+    position: absolute; /* Ajout de la position absolue */
+    bottom: -4px; /* Ajustement de la position verticale */
+    left: 50%; /* Ajustement de la position horizontale */
+    transform: translateX(-50%); /* Centrage horizontal */
+  }
+  
+  
+  .menu a:hover {
+    background-color:  rgb(255, 255, 255);
+    color: red;
+  }
+  
+  
+  .menu a:hover::after {
+    width: 100%;
+    background-color: red;
+  }
+  
+  
+  .button button {
+    background-color: rgb(255, 2, 2);
+    color:  rgb(255, 255, 255);
+    border: 2px;
+    border-radius: 22px;
+    padding: 7px 10px;
+    font-size: 25px;
+  }
+  
+  
+  .button button:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+  
+  }
+  
+  
+  .button button:focus {
+    outline: none;
+  }
+  
+  
+  .hover-circle {
+    transition: background-color 0.3s;
+  }
+  
+  
+  .hover-circle:hover {
+    border-radius: 50%;
+    background-color: red;
+  }
+  
+  .main-div {
+    text-align: center;
+    margin: 0 auto;
+    width: 600px;
+    padding: 20px;
+    border: 1px solid black;
+  }
+  
+
+
+.containersss {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 40px;
+  }
+  
+  form {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  h1 {
+    text-align: center;
+    color:red;
+  }
+  
+  .input-group {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 5px;
+    border-radius: 9px solid white;
+  }
+  
+  button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #000000;
+    
+  }
+  
+  .alert {
+    padding: 15px;
+    background-color: #000000;
+    color: white;
+    margin-bottom: 15px;
+  }
+  
+  .success {
+    background-color: #4CAF50;
+  }
+  

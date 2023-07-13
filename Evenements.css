@@ -1,0 +1,238 @@
+@import url('https://fonts.cdnfonts.com/css/pincoyablack');
+body {
+    margin: 0;
+    padding:0;
+  }
+  
+  
+  .navbar {
+    background-color: rgb(4, 69, 51);
+      display: flex;
+      justify-content: space-between;
+      padding: 10px;
+      border: 9px solid rgb(255, 255, 255);
+      border-radius: 100px;
+      height:51px;
+  }
+  
+  
+  .logo-img {
+    /* Ajoutez les styles pour votre logo ici */
+    width: 115px;
+    height:auto;
+    top: -36px;
+    position: relative;
+    
+  }
+  
+  
+  .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  
+  .menu li {
+    margin-right: 1.5cm;
+  }
+  
+  
+  .menu a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+    position: relative; /* Ajout de la position relative */
+    font-size: 25px;
+  }
+  
+  
+  .menu a::after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 0;
+    background-color: transparent;
+    transition: width 0.3s, background-color 0.3s;
+    position: absolute; /* Ajout de la position absolue */
+    bottom: -4px; /* Ajustement de la position verticale */
+    left: 50%; /* Ajustement de la position horizontale */
+    transform: translateX(-50%); /* Centrage horizontal */
+  }
+  
+  
+  .menu a:hover {
+    background-color:  rgb(255, 255, 255);
+    color: red;
+  }
+  
+  
+  .menu a:hover::after {
+    width: 100%;
+    background-color: red;
+  }
+  
+  
+  .button button {
+    background-color: rgb(255, 2, 2);
+    color:  rgb(255, 255, 255);
+    border: 2px;
+    border-radius: 22px;
+    padding: 7px 10px;
+    font-size: 25px;
+  }
+  
+  
+  .button button:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+  
+  }
+  
+  
+  .button button:focus {
+    outline: none;
+  }
+  
+  
+  .hover-circle {
+    transition: background-color 0.3s;
+  }
+  
+  
+  .hover-circle:hover {
+    border-radius: 50%;
+    background-color: red;
+  }
+  
+  .main-div {
+    text-align: center;
+    margin: 0 auto;
+    width: 600px;
+    padding: 20px;
+    border: 1px solid black;
+  }
+  
+  .containerrss {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .column {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .column img {
+    width: 100%;
+    height: auto;
+  }
+  
+  
+  .column p {
+    text-align: justify;
+  }
+  
+  .column-container {
+    display: flex;
+  }
+
+  .column {
+    flex: 1;
+    padding: 10px;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  li {
+    margin-bottom: 10px;
+  }
+
+  .container {
+    display: flex;
+  }
+  
+  .left-column,
+  .middle-column,
+  .right-column,
+  .fourth-column {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .left-column {
+    background-color: rgb(255, 255, 255);
+    padding:10px;
+  }
+  
+  .middle-column {
+    background-color: rgb(255, 255, 255);
+    width: 60px;
+    height: 100px;
+
+  }
+  
+  .gall{
+    font-family: 'Pincoyablack', sans-serif;
+    font-size:129px;
+    line-height: 0,1;
+    text-align: center;
+    display: inline-block;
+    top: -100px;
+
+  }
+  
+  .right-column {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .fourth-column {
+    display: flex;
+    flex-direction: column;
+    font-size: 27px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+    }
+  
+  .right-column img,
+  .fourth-column p {
+    margin-bottom: 10px;
+  }
+  
+.les{
+  color: red;
+  font-weight: bolder;
+  font-size: 31px;
+}
+
+.can{
+  font-size: 39px;
+}
+
+.eq1{
+  font-size: 21px;
+}
+
+.eq2{
+  font-size: 21px;
+}
+
+.coup{
+  font-size: 18px;
+}
+
+.colonne {
+  flex: 1;
+  padding: 10px;
+  background-color: #f1f1f1;
+  text-align: center;
+}
